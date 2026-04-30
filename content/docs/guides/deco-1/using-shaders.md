@@ -15,22 +15,21 @@ tags:
 {{< callout context="caution" title="Incomplete guide" icon="outline/info-circle" >}}
 
 
+
 This guide is missing the following:
 
 * Proofreading
 
 
+
 {{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
-
 * Shaders can enhance your level's atmosphere and immersion, but they do not affect gameplay itself.
 * Use shaders in key moments like drops, transitions, and intensity changes to emphasize important beats in the music and structure of your level.
 * Keep effects controlled and make sure they have a clear purpose. Overusing shaders can cause lag, reduce visibility, and make your level feel messy, rather than polished.
 * You can use shaders beyond their regular "limits" to get different effects.
-
-
+* Different Shader Masking Techniques
 {{< /callout >}}
 
 - - -
@@ -55,9 +54,11 @@ Because of this, shaders should be treated as something you keep in mind through
 {{< callout context="caution" title="Ask yourself these 3 questions:" icon="outline/info-circle" >}}
 
 
+
 - Does the shader effect match the theme/mood of the music?
 - Does it improve the quality of the theme/mood?
 - Is it making the player's experience better and more immersive?
+
 
 
 {{< /callout >}}

@@ -18,9 +18,11 @@ tags:
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
 
+
 * Everything you do in gameplay, especially your gamemode choices, should be with a purpose.
 * Each gamemode has unique properties that allow them to function in different situations. These properties should be used to choose your gamemodes.
 * There are a lot of unique interactions between gamemodes and other gameplay objects which you can use to your advantage.
+
 
 
 {{< /callout >}}
@@ -123,7 +125,7 @@ This is the most snappy air gamemode, apart from Wave which is a whole other sto
 
 * Hold to fly diagonally up, release to fly diagonally down
 * Has air control
-* Travels in a straight 45* line when normal size, and roughly 63.43° in mini size.
+* Travels in a straight 45° line when normal size, and roughly 63.43° in mini size.
 * Dies when hitting everything except for the camera border grounds
 * Nothing changes as speed increases
 

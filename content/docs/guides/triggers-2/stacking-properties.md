@@ -15,6 +15,7 @@ contributors:
   - chuckolate
   - notamoderatr
   - komatic5
+  - typexleta
 ---
 THIS GUIDE HAS MISSING EXAMPLES, DON'T MAKE PUBLIC YET
 

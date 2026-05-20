@@ -7,6 +7,7 @@ weight: 6160
 date: 2026-03-05T00:00:00.000Z
 contributors:
   - theibra
+  - notamoderatr
 description: When making minigames, controls are a major aspect as they are what the player uses to interact with your level. Making them complicated or confusing can lead to the experience being less enjoyable. However, having only 2 or 6 inputs can make this challenging. This guide discusses how different button combinations can be used to create more actions while keeping the control layout manageable.
 tags:
   - Grade 2
@@ -19,42 +20,20 @@ seo:
 ---
 {{< callout context="caution" title="Incomplete guide" icon="outline/info-circle" >}}
 
-
-
-
-
 This guide is missing the following:
 - Examples
-
-
-
-
-
 
 {{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
-
-
 * While Geometry Dash only offers so many usable keys, you can add more actions to your level using various trigger setups.
 * Control schemes should be intuitive to the player, making sure they are easy to learn.
-
-
-
 {{< /callout >}}
 
 {{< callout context="tip" title="Note" icon="outline/circle-plus" >}}
 
-
-
-
-
 This guide contains interactive images; you can click or hover over elements to learn more about them.
-
-
-
-
 
 {{< /callout >}}
 
@@ -165,7 +144,7 @@ You may notice with setup A that moving 2 opposite directions at the same time c
 
 * **Overriding the Previous Input**: Event Trigger 1 activates a Stop Trigger that stops the loop of the opposite direction, and vice versa for Event Trigger 2.
 * **Changing Directions after Releasing a Key**: Event Trigger 1 activates a Pause Trigger that pauses the Event Trigger of the opposite direction, Event Trigger 2 activates a resume trigger that resumes it.
- 
+
 These solutions can also be used to limit your options to 4 directions!
 
 ## Driving controls
@@ -252,7 +231,7 @@ You can switch out the delayed Spawn Triggers for Event triggers detecting \[key
 
 ## Buttons
 
-Buttons usually require controls separate from the player's movement, but you might want to implement a different approach depending on the usecase. 
+Buttons usually require controls separate from the player's movement, but you might want to implement a different approach depending on the usecase.
 
 For the following examples that don’t use the player as a cursor, we will use a Collision Block. Collision can be detected by using the Collision Trigger and toggling the block, or by spawning an Instant Collision Trigger.
 

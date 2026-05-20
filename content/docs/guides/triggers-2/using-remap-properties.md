@@ -22,9 +22,11 @@ tags:
 {{< /callout >}}
 
 ** **
+
 # 1: Spawn Remap Properties
 
 ## Abstraction
+
 Spawn remapping applies to every type of ID, not just groups. ItemIDs, Color Channels, BlockIDs, and so on, can all be remapped. The only exception is GradientIDs, as of Update 2.206.
 
 However for this to work, each ID type must have a unique OriginalID when remapping. In the example below, I could use Color Channel 1, Group 2, and BlockID 3, but not both Color Channel 1 and BlockID 1.
@@ -32,11 +34,13 @@ However for this to work, each ID type must have a unique OriginalID when remapp
 {{< img src="https://lh3.googleusercontent.com/d/1w4Ymd5XVTMPur0yDK4ItDwGryLq8xVlZ" >}}
 
 ## Priority
+
 If you use multiple remaps with the same OriginalID, only the highest NewID will actually get remapped. This only applies within the same spawn trigger, so you can remap the same OriginalID to multiple NewIDs by copy-pasting your trigger and changing the IDs accordingly.
 
 {{< img src="https://lh3.googleusercontent.com/d/1KLOYHLBoH57igpak4I6raTx4o8Xkub8v" >}}
 
 ## Inheritance
+
 Triggers activated by a Spawn Trigger can inherit the remapped IDs. This means that triggers activated by a remapped trigger will also be remapped, including other Spawn Remap triggers.
 
 However, this has some issues with the Instant Collision trigger, which will be explained in the Bugs section.
@@ -44,9 +48,11 @@ However, this has some issues with the Instant Collision trigger, which will be 
 {{< img src="https://lh3.googleusercontent.com/d/1R4-ees4r5-XHNGdmPptb6473r34nL-Pl" >}}
 
 ## Recursion
+
 You can remap the OriginalID and NewID in a spawn remap because of Remap Inheritance. This means your spawn remaps can carry over to other remaps.
 
 For example, a spawn trigger that remaps ID A to B and ID C to D, and activates a spawn trigger which remaps A to C, is the equivalent of remapping B to D.
+
 ## Non-Exclusivity across triggers
 
 Spawn triggers create new “instances” of the triggers they activate, which work independently from the original. Think of this like copying a file before opening it; the original is left unchanged. This means that spawn remaps create new independent instances of trigger setups that don’t have control over others.
@@ -58,7 +64,9 @@ However, since Stop triggers and Edit Advanced Follow cannot be remapped when st
 For stop triggers to know which instances they should affect, use ControlIDs instead of GroupIDs. Select the triggers you want to stop, then go to Edit Group -> Extra2 and choose a ControlID. Now enable “Use ControlID” in the stop trigger and type in the value in the “groupID” text box.
 
 Make sure for each new spawn trigger you also remap the ControlIDs used. Also note that ControlIDs can go up to 2^31 and aren’t limited by the 9999 ID limit.
+
 ## Exclusivity within Recursion
+
 Remap Recursion has another property which can lead to very undesirable outcomes. When remapping ID A to B with a spawn trigger, and using this trigger to activate another spawn trigger that remaps A to C, the game tries to create two different instances of the remap. Both remaps cannot be executed at the same time or the game will crash.
 
 Reset Remap is a solution to this. It effectively resets any recursion in the spawn triggers, which overrides the first instance and prevents a crash. In this example, we’ll enable it for the second spawn trigger.
@@ -66,7 +74,9 @@ Reset Remap is a solution to this. It effectively resets any recursion in the sp
 # 2: Bugs
 
 As of 2.206, remapping doesn’t work with some specific triggers. This part has some fixes and workarounds you should consider.
+
 ## Instant Collision
+
 **TrueID** can be remapped, but remapping does not travel through it via Inheritance.
 **FalseID** can neither be remapped nor does it allow remapping to travel through it.
 
@@ -89,14 +99,16 @@ With this setup you’ll also have to remap the ItemID used (3 in this case) alo
 ## Triggers with ID limits
 
 Spawn remaps can bypass the 9999 ID limit on triggers, more specifically for triggers that use itemIDs or controlIDs. This lets you use Item Comp triggers, for example, on negative itemIDs or 10000+ itemIDs.
+
 ## Storing values
+
 You can save a remap value for later use. This is thanks to Recursion, which lets you trap the remap value inside a loop, and release it when necessary.
 
 For example, consider this initial setup where we want to pulse different blocks using the same button. Each time we select a block, we toggle on its spawn trigger and toggle off the others. This can use a considerable amount of groupIDs if the number of blocks is high enough .
 
 This original version of the system was created by @Evere, where a spawn trigger that is part of the loop is toggled off at first (in this case, it’s the selected spawn trigger), and is toggled on when needed. It activates the pulse trigger in this example.
 
-{{< img src="https://lh3.googleusercontent.com/d/14cFb-YHiSQ24Ces-nuwl5Kq5e-YVWtwF" >}}
+{{< youtube oXioSg_5mZI >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1RFOvlQFz-75Wha9PMfW86AAh3FKluuJa" >}}
 
@@ -116,7 +128,7 @@ This original version of the system was created by @Evere, where a spawn trigger
 
 This setup can also use ItemIDs instead. When you want to pulse the selected blocks, a change in the ItemID is detected by the item comp trigger inside the loop, which activates the pulse trigger instead of the looping spawn trigger.
 
-{{< img src="https://lh3.googleusercontent.com/d/1cWeeNm4HbULKOj0jKPDkbFjgMwC7CZ2O" >}}
+{{< youtube 34LVyscf-b8 >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1j6GH7rRXOUjrSWxWbIURDQfmUr4C94KJ" >}}
 
@@ -135,4 +147,5 @@ This setup can also use ItemIDs instead. When you want to pulse the selected blo
 4. To activate the wanted triggers, change the value of ItemID 1 with a Pickup trigger as shown in the video.
 
 ## Dynamic Groups
+
 Spawn remaps can also be used to make Dynamic Groups. This is a setup made by @koma5 that lets you choose a target group for a trigger based on an ItemID’s value. You can read more about it in the [Making Data Structures](https://docs.google.com/document/d/17OohiVbf_m8fiL_1_FSl0Yn5NjBrE7dBMNRALGljp54/edit?usp=sharing) guide.

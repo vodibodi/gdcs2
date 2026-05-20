@@ -109,12 +109,11 @@ This randomizer abuses an interaction between the shake trigger and dual mode in
 
 Here's what it should look like.
 
-{{< img src="https://lh3.googleusercontent.com/d/1kOGzNoGNk4BxdJhh9IYYx9P5HQldqlPy" >}}
+{{< youtube 66jnPOmvqWY >}}
 
 This randomizer does not require any player input, and is fully random. However, it only supports 2 outcomes, requires Shake to be enabled, and cannot be playtested in the editor.
 
 # Sources
 
-- <https://youtu.be/LbPYygtpxJk
-- <https://youtu.be/guOzs1aU_Us
-- <https://youtu.be/tbzdZJQWaAc
+- [How I Made A Randomized Geometry Dash Level](<https://youtu.be/LbPYygtpxJk>)
+- [How I Made a RANDOM TRIGGER in Geometry Dash 2.1!](<https://www.youtube.com/watch?v=guOzs1aU_Us>)

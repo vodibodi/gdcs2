@@ -91,7 +91,7 @@ Stargaze by Miracatsy & GDLudvigg introduces the level with a black overlay that
 
 Stereo Madness also does a fade before entering the first ship section as a form of anticipation. It goes to show how these transitions are made in older updates considering the limitations.
 
-{{< youtube id="sgbl2hnOS5A" start="24" >}}
+{{< youtube id="hI8AoSVkScA" start="24" >}}
 
 In contrast, PXTTXRN SXXKXR by Viot uses a black overlay and a quicker fade time before going straight to the drop.
 

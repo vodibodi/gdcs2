@@ -60,9 +60,10 @@ In STARPUNK by Ferdefunky, the cube transitions to the ball part with some minor
 {{< youtube id="-9fKSBc7naQ" start="7" >}}
 
 {{< img-grid >}}
-![](https://drive.google.com/file/d/1iyxqhiJB9y5hbbaHOoy-sCmSpU9nT92l/view?usp=drive_link)
+{{< img src="https://lh3.googleusercontent.com/d/1iyxqhiJB9y5hbbaHOoy-sCmSpU9nT92l" >}}
 
-![](https://drive.google.com/file/d/1A-njMiM3hdQqBJGTWAqtAkMcnMvr8KsU/view?usp=drive_link)
+{{< img src="https://lh3.googleusercontent.com/d/1A-njMiM3hdQqBJGTWAqtAkMcnMvr8KsU" >}}
+
 {{< /img-grid >}}
 
 Beachie’s intro for this example has the song starting out with this glitchy voice that speaks backwards, hence used both chromatic glitch and the glitch shader to convey that voice. Once the music starts playing, that's when the colors cut into place starting the level.

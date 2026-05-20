@@ -2,7 +2,7 @@
 draft: false
 authors:
   - illusion2
-title: Pacing 3 (Note Representation)
+title: Pacing 4 (Note Representation)
 weight: 7090
 date: 2025-11-15T00:00:00.000Z
 contributors:

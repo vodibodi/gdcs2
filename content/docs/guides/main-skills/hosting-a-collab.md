@@ -1,13 +1,15 @@
 ---
 draft: false
+authors:
+  - komatic5
 title: Hosting a Collab
 weight: 2140
 date: 2023-09-30T00:00:00.000Z
-description: Collabs are always a popular way to make Geometry Dash levels. However, you'll make many fatal mistakes unless you know how to manage them properly. This guide will explain how to host a collab properly.
-authors:
-  - komatic5
 contributors:
   - komatic5
+description: Collabs are always a popular way to make Geometry Dash levels.
+  However, you'll make many fatal mistakes unless you know how to manage them
+  properly. This guide will explain how to host a collab properly.
 tags:
   - Grade 0
   - Community Work
@@ -20,6 +22,7 @@ tags:
 - Finally you should allocate resources to each person. Make sure everyone knows which Group IDs, Color Channels, and even Z Layers they should use.
 - With this planning out of the way, the final task is to manage your collab itself. Conduct frequent progress checks with your collab members and show them that you’re passionate about completing the level.
 {{< /callout >}}
+
 ** **
 
 Collaborating with others is a common way to make levels, and it has many benefits. You get multiple people working on the level at once, which saves time and makes ambitious ideas become far more feasible.
@@ -30,7 +33,7 @@ However, over 90% of collabs fail to get off the ground, and the ones which are 
 
 *Why must your level be a collab?* This seems like a fairly simple question, but it’s crucial that you can answer it truthfully. If you can’t, you’ll waste lots of effort trying to convince people to join a collab they don’t feel like building for. Or worse yet, you could actually convince people to join, and then waste *their* effort due to your poor planning. An example of this is Fusion Z; the level was suddenly canceled by Manix648, angering many of the collab members and sparking massive drama.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpAVk3yrLQM" frameborder="0" allowfullscreen></iframe>
+{{< youtube xpAVk3yrLQM >}}
 
 Before you ask a single person to join your collab, I recommend having a clear idea for why you want to collaborate in the first place. When advertising to others, you’ll need to explain why their time and effort should be spent on your level instead of anything else in their life. If you want to collab because you “don’t feel like making a full level by yourself”, stop right here. Nobody will work for a host who doesn’t have any motivation to work on their own level.
 
@@ -38,15 +41,15 @@ Here are some good reasons to form a collab. *Don’t use these to justify your 
 
 - Your idea is far too ambitious for your skill level or free time (Ex: Castlemania)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ppgh1EpULQU" frameborder="0" allowfullscreen></iframe>
+{{< youtube ppgh1EpULQU >}}
 
 - You share a level vision with other creators, and all of you have the skill sets and motivation to work together (Ex: Dream Flower)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jex-27qWtfI" frameborder="0" allowfullscreen></iframe>
+{{< youtube jex-27qWtfI >}}
 
 - You’d like to collaborate with *friends* for fun (Ex: Scrap)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hGgIevrDFeI" frameborder="0" allowfullscreen></iframe>
+{{< youtube hGgIevrDFeI >}}
 
 Once you have a thought-out level plan and a reason to collab, feel free to start asking people to join. When doing this, you’ll need to organize people a bit, as we’ll discuss below.
 
@@ -56,7 +59,7 @@ One major benefit of collabs is that you don’t have to do things you aren’t 
 
 However, it’s important that you define each person’s role in the level. Otherwise, multiple people could all work on the same task at once, and someone’s work *will* be wasted as a result. I recommend you organize your level by the required tasks. For example, Ocular Miracle became famous as a high-profile collab that separated tasks between gameplay and deco creators.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rZkyjo_4brY" frameborder="0" allowfullscreen></iframe>
+{{< youtube rZkyjo_4brY >}}
 
 Here is a good list of tasks you should consider when choosing what each person does. You may not need everything on this list depending on the type of level you’re making, but it’s still good to keep in mind.
 
@@ -74,21 +77,21 @@ A workflow determines when tasks get done for your level. There are a few major 
 
 The **All Build** method divides the level into individual parts. Each person works on a separate copy of the level, and the individual parts are merged together at the end. This is the most common way of managing collabs today. One example of this method is Cytokinesis.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n5EbLL3RJhc" frameborder="0" allowfullscreen></iframe>
+{{< youtube n5EbLL3RJhc >}}
 
 - **Pros:** Fastest method of making a collab; each person can start working immediately.
 - **Cons:** Your level will quickly become a patchwork mess if you don’t keep communication very tight between members. This can lead to inconsistent quality, especially if people don’t understand your level vision that well.
 
 The **In Order** method divides the level into individual parts, but each creator finishes their part before passing it to the next. This is the oldest method of making collabs, and was most prevalent around 2015. Bloodbath is a level that uses this workflow.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6xe4tKdx_c" frameborder="0" allowfullscreen></iframe>
+{{< youtube A6xe4tKdx_c >}}
 
 - **Pros:** Each creator has a clear idea of what came beforehand. This means that your level vision will likely remain quite cohesive. Additionally, you don’t need to merge the level at the end.
 - **Cons:** It’s slow. This method fell out of favor as building became more complex and time-consuming. Additionally, with a high-object level some creators won’t be able to reasonably work on a massive copy.
 
 The **Level Swap** method allows many people to work on the level at once, occasionally passing their copies to each other so new people can build. This is the newest method of building collabs. Overtime is one level which uses this method.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48SfAwLjaJU" frameborder="0" allowfullscreen></iframe>
+{{< youtube 48SfAwLjaJU >}}
 
 - **Pros:** It has benefits from both the In Order and All Build methods. Each creator has a clear idea of what came beforehand, and each person can work immediately. Furthermore, part quality may be more consistent as each creator can complement the others.
 - **Cons:** Each person works on an unfinished part, so it requires strong communication. Since many level swaps are done in real-time, it’s also subject to time constraints.
@@ -107,7 +110,7 @@ Finally, establish some universal resources that everyone should use. Set aside 
 
 Once you give people a reason to join your collab, communicate your ideas, and establish the resources they can use, you need to make them build. This is where many collabs fall apart, as you must maintain communication constantly. Many of Emerald Realm’s issues, such as the inconsistent part quality, stem from how it was managed in the first place. Ultimately, managing people is always hard, but there are some things you can do to facilitate it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KCst0sO4RpY" frameborder="0" allowfullscreen></iframe>
+{{< youtube KCst0sO4RpY >}}
 
 First, encourage your members to communicate with you. Set up regular progress checks where you ask each member how much work they’ve done over some time. Use this time to answer any questions about your level vision, provide feedback on progress, and make changes to your plans as necessary.
 

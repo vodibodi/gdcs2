@@ -3,7 +3,14 @@ draft: true
 title: Making Functions
 weight: 6170
 date: 2026-05-25
-description: placeholder
+description: Once you start building increasingly complex systems, you may
+  encounter a lot of bugs, your setups may become unmanageable, or even you may
+  begin to loose understanding of the whole web of triggers being created. This
+  is where functions come in. They isolate individual bits of logic into
+  atomized setups with clear purposes, making setups easier to utilize,
+  understand, reuse and expand. This guide will cover all the considerations you
+  must know in order to properly create functions without shooting yourself in
+  the foot.
 tags:
   - Grade 2
   - Trigger Setups
@@ -26,8 +33,8 @@ Function syntaxis varies depending on what programming language you are using, b
 
 ```
 function function_name(input) {
-  instructions
-  return output
+    instructions
+    return output
 }
 ```
 
@@ -36,9 +43,9 @@ We first declare this set of instructions will be a function with the keyword *f
 For instance, let's say we want to compute the average between two numbers. We can do it by defining a function that takes two numbers A and B as input, and outputs the average. That can be written like this:
 ```c
 function average(A,B) {
-  sum = A + B       // the function stores A + B in a new variable sum
-  average = sum/2   // then calculates the average using sum
-  return average    // finally, the function outputs the result
+    sum = A + B       // the function stores A + B in a new variable sum
+    average = sum/2   // then calculates the average using sum
+    return average    // finally, the function outputs the result
 }
 ```
 We can use this function to compute the average between any pair of numbers we input; it should verify that $\rm{average}(2,8) = 5$, $\rm{average}(2,1) = 1.5$, and $\rm{average}(-3,3) = 0$, for example.

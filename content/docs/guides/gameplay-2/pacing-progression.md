@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 authors:
   - komatic5
 title: Pacing 1 (Basics)
